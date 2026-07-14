@@ -565,3 +565,28 @@ h4 {
     padding: 24px;
   }
 }
+
+.allergy-note {
+  max-width: 980px;
+  margin: 28px auto 0;
+  padding: 18px 20px;
+  color: var(--muted);
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(33, 23, 17, 0.1);
+  border-radius: 18px;
+  font-weight: 700;
+}
+
+@media (max-width: 560px) {
+  .menu-item {
+    align-items: flex-start;
+  }
+
+  .menu-item h4 {
+    font-size: 1.12rem;
+  }
+
+  .menu-item .price {
+    white-space: nowrap;
+  }
+}
