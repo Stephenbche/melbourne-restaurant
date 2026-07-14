@@ -1,6 +1,6 @@
-# Federation Lane Melbourne Restaurant Website
+# Welcome Restaurant 夜宵 Website
 
-A complete static restaurant showcase website for **Federation Lane**, a fictional modern Australian restaurant in Melbourne, Victoria.
+A static showcase website for **Welcome Restaurant (夜宵)**, a Docklands Melbourne restaurant at **73 Victoria Harbour Promenade, Docklands VIC 3008**.
 
 ## Required File Structure
 
@@ -14,14 +14,17 @@ README.md
 ## What the Website Includes
 
 - Top navigation bar with section links
-- Large homepage hero image with the restaurant name
-- Restaurant introduction and guest highlights
-- Six signature dishes with images, descriptions, and prices
-- Complete categorized menu for starters, mains, desserts, and drinks
-- Restaurant environment gallery showing dining room, bar, kitchen, and table setting
+- Large homepage hero area with the restaurant name in English and Chinese
+- Restaurant introduction and highlights
+- Six signature dishes selected from the real menu
+- Real categorized menu for Noodles 面条, Rice 米饭, Dumplings 饺子, and Snacks 小食
+- Chinese and English names for every menu item
+- Prices consistently shown in A$
+- Allergy notice for wheat, eggs, nuts, and milk
+- Restaurant environment gallery
 - Customer reviews
-- Opening hours
-- Melbourne address and contact phone number
+- Opening hours for lunch and dinner, Monday–Sunday
+- Address and telephone link
 - Table booking request form
 - Responsive design for mobile phones, tablets, and desktop screens
 
@@ -33,7 +36,16 @@ This project intentionally uses only plain front-end files:
 - CSS
 - JavaScript
 
-It does **not** use Next.js, npm, package managers, build tools, or installed dependencies.
+It does **not** use React, Next.js, npm, package managers, build tools, or installed dependencies.
+
+## Restaurant Details
+
+- **Name:** Welcome Restaurant 夜宵
+- **Address:** 73 Victoria Harbour Promenade, Docklands VIC 3008
+- **Phone:** 0449 771 365
+- **Hours:** Monday–Sunday
+  - Lunch: 12:00 PM – 2:00 PM
+  - Dinner: 5:30 PM – 9:00 PM
 
 ## How to Run
 
