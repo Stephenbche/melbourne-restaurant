@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Federation Lane is a polished Melbourne restaurant website with menus, signature dishes, gallery, reviews, opening hours, contact details, and bookings." />
+  <title>Federation Lane | Melbourne Restaurant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" id="home">
+    <nav class="top-nav" aria-label="Main navigation">
+      <a class="logo" href="#home" aria-label="Federation Lane home">
+        <span class="logo-icon">FL</span>
+        <span class="logo-text">Federation Lane</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-menu">
+        <span class="screen-reader-only">Open navigation menu</span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <ul class="nav-links" id="primary-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#signature-dishes">Signature Dishes</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#book">Book a Table</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero" aria-label="Restaurant hero section">
+      <div class="hero-panel">
+        <p class="kicker">Melbourne CBD · Modern Australian Dining</p>
+        <h1>Federation Lane</h1>
+        <p class="hero-lead">A warm Melbourne restaurant where seasonal Victorian produce, thoughtful service, and laneway energy come together for memorable lunches, dinners, and celebrations.</p>
+        <div class="hero-buttons">
+          <a class="button primary" href="#book">Reserve Now</a>
+          <a class="button ghost" href="#menu">Explore Menu</a>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="section about-section" id="about">
+      <div>
+        <p class="kicker">Restaurant Introduction</p>
+        <h2>A contemporary Melbourne dining room inspired by markets, laneways, and local growers.</h2>
+        <p>Federation Lane serves modern Australian food with Mediterranean touches in the heart of Melbourne. The kitchen builds each menu around fresh seafood, Victorian lamb, local vegetables, handmade pasta, native herbs, and carefully selected wines.</p>
+        <p>Our dining room is relaxed enough for weeknight meals and polished enough for anniversaries, private dinners, pre-theatre bookings, and business lunches. Every table is looked after with genuine Melbourne hospitality.</p>
+      </div>
+      <aside class="highlight-card" aria-label="Restaurant highlights">
+        <h3>Why guests visit</h3>
+        <ul>
+          <li>Seasonal produce sourced from Victoria</li>
+          <li>Vegetarian, seafood, and gluten-aware options</li>
+          <li>Private dining room for up to 28 guests</li>
+          <li>Australian wine list with classic cocktails</li>
+        </ul>
+      </aside>
+    </section>
+
+    <section class="section" id="signature-dishes">
+      <div class="section-heading">
+        <p class="kicker">Chef Recommended</p>
+        <h2>Six signature dishes</h2>
+        <p>Guest favourites that show the flavour, produce, and atmosphere of Federation Lane.</p>
+      </div>
+      <div class="signature-grid">
+        <article class="dish-card">
+          <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80" alt="Chargrilled lamb with herbs" />
+          <div class="dish-content">
+            <h3>Chargrilled Victorian Lamb</h3>
+            <p>Slow-cooked shoulder, smoked eggplant, rosemary jus, mint, and lemon herb salad.</p>
+            <strong>$44</strong>
+          </div>
+        </article>
+        <article class="dish-card">
+          <img src="https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=900&q=80" alt="Seafood linguine with prawns" />
+          <div class="dish-content">
+            <h3>Port Phillip Seafood Linguine</h3>
+            <p>Prawns, market fish, tomato saffron sugo, chilli, garlic, parsley, and basil.</p>
+            <strong>$38</strong>
+          </div>
+        </article>
+        <article class="dish-card">
+          <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=80" alt="Colourful vegetable plate" />
+          <div class="dish-content">
+            <h3>Market Garden Plate</h3>
+            <p>Roasted seasonal vegetables, whipped feta, grains, toasted seeds, and herb dressing.</p>
+            <strong>$29</strong>
+          </div>
+        </article>
+        <article class="dish-card">
+          <img src="https://images.unsplash.com/photo-1534080564583-6be75777b70a?auto=format&fit=crop&w=900&q=80" alt="Crispy fish dish" />
+          <div class="dish-content">
+            <h3>Crisp-Skin Barramundi</h3>
+            <p>Cauliflower puree, charred greens, caper butter, lemon, and garden herbs.</p>
+            <strong>$41</strong>
+          </div>
+        </article>
+        <article class="dish-card">
+          <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=900&q=80" alt="Chocolate tart dessert with berries" />
+          <div class="dish-content">
+            <h3>Wattleseed Chocolate Tart</h3>
+            <p>Dark chocolate ganache, native wattleseed, raspberry gel, and vanilla mascarpone.</p>
+            <strong>$18</strong>
+          </div>
+        </article>
+        <article class="dish-card">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80" alt="Shared restaurant platter" />
+          <div class="dish-content">
+            <h3>Laneway Sharing Board</h3>
+            <p>House pickles, cured meats, artisan cheese, olives, sourdough, and seasonal relish.</p>
+            <strong>$34</strong>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section menu-section" id="menu">
+      <div class="section-heading">
+        <p class="kicker">Complete Menu Categories</p>
+        <h2>From first bite to final pour</h2>
+        <p>Select a category to view dishes and drinks available at the restaurant.</p>
+      </div>
+      <div class="menu-tabs" role="tablist" aria-label="Menu categories">
+        <button class="menu-tab active" type="button" data-category="starters">Starters</button>
+        <button class="menu-tab" type="button" data-category="mains">Mains</button>
+        <button class="menu-tab" type="button" data-category="desserts">Desserts</button>
+        <button class="menu-tab" type="button" data-category="drinks">Drinks</button>
+      </div>
+      <div class="menu-items" id="menu-items" aria-live="polite"></div>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+      <div class="section-heading">
+        <p class="kicker">Restaurant Atmosphere</p>
+        <h2>Dining room, bar, kitchen, and tables</h2>
+      </div>
+      <div class="gallery-grid">
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=80" alt="Warm restaurant dining room with tables" />
+        <img src="https://images.unsplash.com/photo-1559329007-40df8a9345d8?auto=format&fit=crop&w=1000&q=80" alt="Restaurant bar with wine glasses" />
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1000&q=80" alt="Chef plating a dish in the kitchen" />
+        <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=1000&q=80" alt="Elegant table setting in a restaurant" />
+      </div>
+    </section>
+
+    <section class="section reviews-section" id="reviews">
+      <div class="section-heading">
+        <p class="kicker">Customer Reviews</p>
+        <h2>What guests are saying</h2>
+      </div>
+      <div class="review-grid">
+        <blockquote>
+          <p>“A beautiful Melbourne dinner spot. The lamb was tender, the wine pairing was smart, and the room felt relaxed but special.”</p>
+          <cite>— Amelia R.</cite>
+        </blockquote>
+        <blockquote>
+          <p>“We booked a birthday table and the team made the night seamless. The seafood linguine and chocolate tart were standouts.”</p>
+          <cite>— Marcus T.</cite>
+        </blockquote>
+        <blockquote>
+          <p>“Great city location, gorgeous interiors, and plenty of vegetarian options. Perfect before a show near the theatre district.”</p>
+          <cite>— Priya S.</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="section booking-section" id="book">
+      <div class="visit-card">
+        <p class="kicker">Visit Federation Lane</p>
+        <h2>Opening hours, address, and phone</h2>
+        <dl class="details-list">
+          <div>
+            <dt>Monday - Thursday</dt>
+            <dd>12:00 PM - 10:00 PM</dd>
+          </div>
+          <div>
+            <dt>Friday - Saturday</dt>
+            <dd>12:00 PM - 11:30 PM</dd>
+          </div>
+          <div>
+            <dt>Sunday</dt>
+            <dd>11:00 AM - 9:00 PM</dd>
+          </div>
+          <div>
+            <dt>Address</dt>
+            <dd>18 Flinders Lane, Melbourne VIC 3000</dd>
+          </div>
+          <div>
+            <dt>Phone</dt>
+            <dd><a href="tel:+61390123456">+61 3 9012 3456</a></dd>
+          </div>
+        </dl>
+      </div>
+
+      <form class="booking-form" id="booking-form">
+        <p class="kicker">Reservations</p>
+        <h2>Book a table</h2>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="Your name" required />
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com" required />
+
+        <div class="form-row">
+          <div>
+            <label for="date">Date</label>
+            <input id="date" name="date" type="date" required />
+          </div>
+          <div>
+            <label for="time">Time</label>
+            <input id="time" name="time" type="time" required />
+          </div>
+        </div>
+
+        <label for="guests">Guests</label>
+        <select id="guests" name="guests" required>
+          <option value="">Select guests</option>
+          <option>1 guest</option>
+          <option>2 guests</option>
+          <option>3 guests</option>
+          <option>4 guests</option>
+          <option>5 guests</option>
+          <option>6+ guests</option>
+        </select>
+
+        <label for="notes">Notes</label>
+        <textarea id="notes" name="notes" rows="4" placeholder="Dietary requirements, accessibility needs, or special occasion"></textarea>
+
+        <button class="button primary" type="submit">Request Booking</button>
+        <p class="form-message" id="form-message" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="current-year"></span> Federation Lane Melbourne. All rights reserved.</p>
+    <a href="#home">Back to top</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
